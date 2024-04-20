@@ -4,13 +4,15 @@ body {
 }
 h1 {
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 700;
 }
+
 .orange_color {
   color: orange;
 }
-section {
+.flexible-container {
   display: flex;
+  margin-bottom: 150px;
 }
 .upper-width {
   width: 50%;
@@ -31,4 +33,34 @@ section {
 .top-banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.experience-item {
+  width: 100%;
+  margin-left: 5%;
+  padding-left: 30px;
+  margin-right: 5%;
+  box-shadow: 10px 10px 40px grey;
+}
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#ML-eng {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#Frontend {
+  border-left: 7px solid;
+  border-image: linear-gradient(salmon, tomato);
+  border-image-slice: 1;
+}
+#foo {
+  text-align: center;
 }
